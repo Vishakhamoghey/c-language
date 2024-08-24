@@ -1,0 +1,37 @@
+basic syntax of c functions is written as follow:
+return_type function_name(data_type1,data_type2){
+    statemtnt;
+    return 0;
+}
+
+
+void printstar(){
+    statement
+}
+
+// void mtlab kch bi return nahi karega
+
+int sum(int a,int b){
+    return a+b;
+}
+ main >> c=sum(a,b);
+
+
+
+
+#include <stdio.h>
+//declaration/prototype;
+void printHello();
+
+
+int main(){
+    printHello(); //function call;
+    return 0;
+}
+// function defination
+
+void printHello()
+{
+    printf("hello ");
+    
+}
