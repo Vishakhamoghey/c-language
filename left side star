@@ -1,0 +1,42 @@
+       #include <stdio.h>
+
+int main()
+{    int i,j;
+    int col;
+    printf("enter no of rows\n");
+    scanf(" %d",&n);
+    
+    
+    for(i=1;i<=2n-1;i++)
+    {  //loop for generationg rows outer loop for rows
+        
+        for(j=1;j<=i;j++)
+        {
+            if(row>n){
+                
+            }
+            
+            
+            
+                  printf("*");
+        }
+
+         printf(" \n");
+    }   
+       for(i=n-1;i>=1;i--)
+    { 
+        //loop for generationg rows outer loop for rows
+        
+       
+        for(j=1;j<=i;j++)
+        {
+                  printf("*");
+               
+        }
+        
+         printf(" \n");
+    }
+    return 0;
+}
+         
+    
