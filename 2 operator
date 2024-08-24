@@ -1,0 +1,32 @@
+// #include <stdio.h>
+// int main(
+    
+//     int a= 30;
+//     int b= a;
+//     int c= b+a;
+//     int d = 1,e;
+//     int a= b= c=1; //wrong first declare then assign 
+   
+   
+   
+   
+//   int b,c;
+//   b=c=1;
+//   int a = b+c;
+    
+//     return 0;
+//     )
+    
+  #include <stdio.h>
+  #include<math.h>
+  int main(){
+      int b,c;
+      b=c= 2;
+      int a= b+c;
+      int power= pow(b,c);
+      printf("%d",power);
+     
+      return 0;
+  }
+    
+  
