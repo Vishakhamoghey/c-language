@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+	int n;
+	int i=1;
+	double fact=1;
+	printf("enter n:");
+	scanf("%d",&n);
+	while(i<=n)
+	{
+		fact=fact*i;
+		i++;
+	}
+
+	printf("fact is:%lf",fact);
+
+	return 0;
+}
