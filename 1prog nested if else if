@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{   int pin ,confirm;
+    printf("enter old pin");
+    scanf("%d",&pin);
+    
+    if(pin==1234){
+        int newpin;
+        printf("enter your new pin");
+        scanf("%d",&newpin);
+        
+        
+        printf("confirm new pin\n");
+        scanf("%d",&confirm);
+        if(confirm==newpin){
+            
+        printf("pin confirmed succesfully\n");
+        
+        }
+       else{
+           printf("wrong pin");
+       }
+        
+        
+    }
+    else{
+        printf("invalid pin\n");
+    }
+
+    return 0;
+}
