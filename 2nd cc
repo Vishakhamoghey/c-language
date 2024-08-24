@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{   int pin ,confirm;
+    printf("enter your pin");
+    scanf("%d",&pin);
+    
+   
+    if(pin==1234){
+        int amount,totalamount ;
+        
+        
+        printf("enter amount to be transferred:");
+        scanf("%d",&amount);
+         
+        totalamount=10000;
+        
+        int  remaining_balance= totalamount-amount;
+        if(amount>totalamount){
+            
+        printf("insufficient balance\n");
+        
+        }
+        else{
+           printf("remaining amount is %d",remaining_balance);
+        }
+        
+    }
+    else if (pin!=1234){
+        printf("invalid pin\n");
+    }
+
+    else{
+        printf("does not run succcessfully.try again\n");
+    }
+    return 0;
+}
